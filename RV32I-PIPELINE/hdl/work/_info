@@ -1,0 +1,1101 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/LevyE/Downloads/rv32pipeline_restored(3) fw/hdl
+Ealu_control
+Z1 w1725163740
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R0
+Z4 8controlador/alu_control.vhd
+Z5 Fcontrolador/alu_control.vhd
+l0
+L4 1
+V]IfX<0:Af:lPT6CciSNDe1
+!s100 ^:NlW5eZm<[A1LIig2hSU3
+Z6 OV;C;2020.1;71
+33
+Z7 !s110 1725155414
+!i10b 1
+Z8 !s108 1725155413.000000
+Z9 !s90 -reportprogress|300|-2008|controlador/alu_control.vhd|controlador/main_control.vhd|
+Z10 !s107 controlador/main_control.vhd|controlador/alu_control.vhd|
+!i113 1
+Z11 o-2008
+Z12 tExplicit 1 CvgOpt 0
+Aarch_1
+R2
+R3
+DEx4 work 11 alu_control 0 22 ]IfX<0:Af:lPT6CciSNDe1
+!i122 3
+l11
+L10 23
+VZZCEQ5d<R4BHzgRcGXBmk2
+!s100 ^kJY;ZWVgARfK1c>n3;Qn3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eand_32bits
+R1
+R2
+R3
+!i122 1
+R0
+Z13 8datapath/ula/and.vhd
+Z14 Fdatapath/ula/and.vhd
+l0
+L4 1
+Vlk6eXHmR]lGU_c_nM=IcN2
+!s100 hPWI3b6JU8NRGJU?]Kf`:2
+R6
+33
+Z15 !s110 1725155413
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-2008|datapath/ula/and.vhd|datapath/ula/nor.vhd|datapath/ula/or.vhd|datapath/ula/seletor_ula.vhd|datapath/ula/slt.vhd|datapath/ula/subtrator.vhd|datapath/ula/ula.vhd|
+Z17 !s107 datapath/ula/ula.vhd|datapath/ula/subtrator.vhd|datapath/ula/slt.vhd|datapath/ula/seletor_ula.vhd|datapath/ula/or.vhd|datapath/ula/nor.vhd|datapath/ula/and.vhd|
+!i113 1
+R11
+R12
+Aarq_1
+R2
+R3
+DEx4 work 10 and_32bits 0 22 lk6eXHmR]lGU_c_nM=IcN2
+!i122 1
+l11
+Z18 L10 4
+V;d8Yk75RTLWZ:S@CdVd<z2
+!s100 nGNH9WBJn2z5cNFA<DLEm0
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Ebar_ex_mem
+Z19 w1725154779
+R2
+R3
+!i122 4
+R0
+Z20 8registradores-barreira/bar_ex_mem.vhd
+Z21 Fregistradores-barreira/bar_ex_mem.vhd
+l0
+L4 1
+V@hZTFj45>jCD>Tc1H2Cjl0
+!s100 m>D8@EG1W;^8V1jITe9_=3
+R6
+33
+R7
+!i10b 1
+Z22 !s108 1725155414.000000
+Z23 !s90 -reportprogress|300|-2008|registradores-barreira/bar_ex_mem.vhd|registradores-barreira/bar_id_ex.vhd|registradores-barreira/bar_if_id.vhd|registradores-barreira/bar_mem_wb.vhd|registradores-barreira/reg_bar.vhd|
+Z24 !s107 registradores-barreira/reg_bar.vhd|registradores-barreira/bar_mem_wb.vhd|registradores-barreira/bar_if_id.vhd|registradores-barreira/bar_id_ex.vhd|registradores-barreira/bar_ex_mem.vhd|
+!i113 1
+R11
+R12
+Aarch_1
+R2
+R3
+DEx4 work 10 bar_ex_mem 0 22 @hZTFj45>jCD>Tc1H2Cjl0
+!i122 4
+l49
+L36 35
+V;dJ4LX7jB:2CL3e69XQOV3
+!s100 NCJzN:J1<Og2VRB3N^KoH3
+R6
+33
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Ebar_id_ex
+Z25 w1725154790
+R2
+R3
+!i122 4
+R0
+Z26 8registradores-barreira/bar_id_ex.vhd
+Z27 Fregistradores-barreira/bar_id_ex.vhd
+l0
+L4 1
+V8Vo48Zn[m2a2@J;H^gCzU1
+!s100 C17UlofGL7=bJ@V:QJ:JB0
+R6
+33
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Aarch_1
+R2
+R3
+DEx4 work 9 bar_id_ex 0 22 8Vo48Zn[m2a2@J;H^gCzU1
+!i122 4
+l56
+L43 39
+VWez18Me3JSW2DF8MVKdaY2
+!s100 QF>WeGcB_bjNzAGhZ1a;K0
+R6
+33
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Ebar_if_id
+Z28 w1725154797
+R2
+R3
+!i122 4
+R0
+Z29 8registradores-barreira/bar_if_id.vhd
+Z30 Fregistradores-barreira/bar_if_id.vhd
+l0
+L4 1
+VmoE6PE6hmeK0Yj^:O<Tgc2
+!s100 ^I09zfoomgn_9ZJ]`C0_M1
+R6
+33
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Aarch_1
+R2
+R3
+DEx4 work 9 bar_if_id 0 22 moE6PE6hmeK0Yj^:O<Tgc2
+!i122 4
+l29
+L16 26
+VR];BM_?Z=2`;^V^X;E`W@2
+!s100 aT7XW<]SbS23lF1GXMn;M1
+R6
+33
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Ebar_mem_wb
+Z31 w1725154534
+R2
+R3
+!i122 4
+R0
+Z32 8registradores-barreira/bar_mem_wb.vhd
+Z33 Fregistradores-barreira/bar_mem_wb.vhd
+l0
+L4 1
+VjeDFOCGg`R^GimgLHh7iP0
+!s100 Njeg35^]ab6@dMGY=z>Na2
+R6
+33
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Aarch_1
+R2
+R3
+DEx4 work 10 bar_mem_wb 0 22 jeDFOCGg`R^GimgLHh7iP0
+!i122 4
+l37
+L24 29
+V_OT`::X96GIOV0LQOi2Gi0
+!s100 cHZS>XW4SI;K3SLzY6<2`3
+R6
+33
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Edata_memory
+R1
+Z34 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 2
+R0
+Z35 8datapath/data_memory.vhd
+Z36 Fdatapath/data_memory.vhd
+l0
+L5 1
+VLe@lmNFz[l3mWN0n62L3W3
+!s100 UQOkD]4h;gNi=Sdk9OSV;3
+R6
+33
+R15
+!i10b 1
+R8
+Z37 !s90 -reportprogress|300|-2008|datapath/data_memory.vhd|datapath/imm_gen.vhd|datapath/instruction_memory.vhd|datapath/mux_2.vhd|datapath/reg.vhd|datapath/shift_left.vhd|datapath/somador.vhd|
+Z38 !s107 datapath/somador.vhd|datapath/shift_left.vhd|datapath/reg.vhd|datapath/mux_2.vhd|datapath/instruction_memory.vhd|datapath/imm_gen.vhd|datapath/data_memory.vhd|
+!i113 1
+R11
+R12
+Aarch_1
+R34
+R2
+R3
+DEx4 work 11 data_memory 0 22 Le@lmNFz[l3mWN0n62L3W3
+!i122 2
+l18
+L14 17
+V2EH]jK_G@mU3e<]o3:oZ03
+!s100 mm>SUWzaGllCPdV^8KQ5`0
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Edecoder5to32
+R1
+R34
+R2
+R3
+!i122 0
+R0
+Z39 8datapath/banco-de-registradores/decoder5to32.vhd
+Z40 Fdatapath/banco-de-registradores/decoder5to32.vhd
+l0
+L5 1
+VN6kcLIZ@NAki9^i5X[7PJ1
+!s100 G>=@jNiC1VLlYi1nTTW6U2
+R6
+33
+Z41 !s110 1725155412
+!i10b 1
+Z42 !s108 1725155412.000000
+Z43 !s90 -reportprogress|300|-2008|datapath/banco-de-registradores/decoder5to32.vhd|datapath/banco-de-registradores/mux32_32bit.vhd|datapath/banco-de-registradores/reg_file.vhd|
+Z44 !s107 datapath/banco-de-registradores/reg_file.vhd|datapath/banco-de-registradores/mux32_32bit.vhd|datapath/banco-de-registradores/decoder5to32.vhd|
+!i113 1
+R11
+R12
+Aarch_1
+R34
+R2
+R3
+DEx4 work 12 decoder5to32 0 22 N6kcLIZ@NAki9^i5X[7PJ1
+!i122 0
+l11
+L10 8
+V>W`25a=zDlX?RIgH7T]=D2
+!s100 64>NMj0oKa_7zU:>B=GFz0
+R6
+33
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R11
+R12
+Eimm_gen
+R1
+R34
+R2
+R3
+!i122 2
+R0
+Z45 8datapath/imm_gen.vhd
+Z46 Fdatapath/imm_gen.vhd
+l0
+L5 1
+VCB73gE`bbmG77mSWc?<m;1
+!s100 []JGI9lLCIzc1_QCnH`[11
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Aarch_1
+R34
+R2
+R3
+DEx4 work 7 imm_gen 0 22 CB73gE`bbmG77mSWc?<m;1
+!i122 2
+l11
+L10 25
+VEh;E<3UUAFHZ@JFhCd8mY2
+!s100 :J9HXdXCDZa;b70]TgMjj3
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Einstruction_memory
+R1
+R34
+R2
+R3
+!i122 2
+R0
+Z47 8datapath/instruction_memory.vhd
+Z48 Fdatapath/instruction_memory.vhd
+l0
+L5 1
+VTmCG[h__iAH?KXWJ2[SJS3
+!s100 0IK4Ci_DG?`lUM?D8c9D=3
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Aarq_1
+R34
+R2
+R3
+DEx4 work 18 instruction_memory 0 22 TmCG[h__iAH?KXWJ2[SJS3
+!i122 2
+l35
+L10 28
+Va7S:_jGGmjTTB8z^dV`oa2
+!s100 ebP[n=bOVz?CfWUm^TI:H1
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Emain_control
+R1
+R2
+R3
+!i122 3
+R0
+Z49 8controlador/main_control.vhd
+Z50 Fcontrolador/main_control.vhd
+l0
+L4 1
+V4h:aCifM^gC_7D^YYA>0Y1
+!s100 l=4<<oRe_H^j9SNVnan[[0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aarch_1
+R2
+R3
+DEx4 work 12 main_control 0 22 4h:aCifM^gC_7D^YYA>0Y1
+!i122 3
+l16
+L15 28
+VHF8>Zmzc=k0Hoo7B8Tc<Q2
+!s100 3EoO10?3m9jWNkS<PflLM0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux32_32bit
+R1
+R34
+R2
+R3
+!i122 0
+R0
+Z51 8datapath/banco-de-registradores/mux32_32bit.vhd
+Z52 Fdatapath/banco-de-registradores/mux32_32bit.vhd
+l0
+L5 1
+Vjm0FgWcVJcP@E:<g8jhKg0
+!s100 LRofl1FhYnQE?a2Jk_]AB0
+R6
+33
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R11
+R12
+Abehavioral
+R34
+R2
+R3
+DEx4 work 11 mux32_32bit 0 22 jm0FgWcVJcP@E:<g8jhKg0
+!i122 0
+l47
+L42 42
+V^lo460N[L5:QWne3B]kBK1
+!s100 BbO[HckKDl11E]ZOe]c1:1
+R6
+33
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R11
+R12
+Emux_2
+R1
+R2
+R3
+!i122 2
+R0
+Z53 8datapath/mux_2.vhd
+Z54 Fdatapath/mux_2.vhd
+l0
+L4 1
+V6X9NZFf_`^M9F5^G1QV?>3
+!s100 22l6Z6<>g<iDH3kZkh6z;2
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Aarq1
+R2
+R3
+DEx4 work 5 mux_2 0 22 6X9NZFf_`^M9F5^G1QV?>3
+!i122 2
+l13
+Z55 L12 11
+VC:D^4k>iJl6;?dEQXF0O?1
+!s100 >Vh?CVIPSIRZoD3mOLjd<3
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Enor_32bits
+R1
+R2
+R3
+!i122 1
+R0
+Z56 8datapath/ula/nor.vhd
+Z57 Fdatapath/ula/nor.vhd
+l0
+L4 1
+VX0oczO[e[C<M[QRKoB74U1
+!s100 ;ocnndIbMN_U<[YhIeagV0
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Aarq_1
+R2
+R3
+DEx4 work 10 nor_32bits 0 22 X0oczO[e[C<M[QRKoB74U1
+!i122 1
+l11
+R18
+V8kazk`;;?dm8^5l;eBded0
+!s100 k@XAM_d@R6So?0g3Q_`db0
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Eor_32bits
+R1
+R2
+R3
+!i122 1
+R0
+Z58 8datapath/ula/or.vhd
+Z59 Fdatapath/ula/or.vhd
+l0
+L4 1
+VSfX7YM0jFcnC?5JA@0<:V1
+!s100 XCfWMLW8eDAAh:oN7N?>A1
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Aarq_1
+R2
+R3
+DEx4 work 9 or_32bits 0 22 SfX7YM0jFcnC?5JA@0<:V1
+!i122 1
+l11
+R18
+V0[iL<dVmfSi@nUQHWVUQ[2
+!s100 6;RZHh6IS0Oj?EZFf67:b1
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Ereg
+R1
+R2
+R3
+!i122 2
+R0
+Z60 8datapath/reg.vhd
+Z61 Fdatapath/reg.vhd
+l0
+L4 1
+VbM7HjW_P`@9?`lPA5Aj]D0
+!s100 h[R`][PY=D1a375IiXfBg3
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Aarch_1
+R2
+R3
+DEx4 work 3 reg 0 22 bM7HjW_P`@9?`lPA5Aj]D0
+!i122 2
+l12
+L11 11
+Vge]dP[GCM=oCCzQo=2SNo2
+!s100 d9g79OTb<_Gn4CIK?kn0i1
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Ereg_bar
+R1
+R2
+R3
+!i122 4
+R0
+Z62 8registradores-barreira/reg_bar.vhd
+Z63 Fregistradores-barreira/reg_bar.vhd
+l0
+L4 1
+V`jiDEe7m0XGicN:N>`3;U3
+!s100 amU<CV4G<j7jBbMUA5Mfb1
+R6
+33
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Aarch_1
+R2
+R3
+DEx4 work 7 reg_bar 0 22 `jiDEe7m0XGicN:N>`3;U3
+!i122 4
+l13
+R55
+VS7EBR2AC]d;7mIXW7lgi:0
+!s100 o5b]JCRmKOF@kaz_0Nc]63
+R6
+33
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Ereg_file
+R1
+R34
+R2
+R3
+!i122 0
+R0
+Z64 8datapath/banco-de-registradores/reg_file.vhd
+Z65 Fdatapath/banco-de-registradores/reg_file.vhd
+l0
+L5 1
+V50d=Cn:czh2Wb7LjWU^=@1
+!s100 1SUeJIjInWWI_SfG4QO5R3
+R6
+33
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R11
+R12
+Aarch_1
+R34
+R2
+R3
+DEx4 work 8 reg_file 0 22 50d=Cn:czh2Wb7LjWU^=@1
+!i122 0
+l66
+L16 151
+VSg[E[AKd?IohMAERd`F3>2
+!s100 6acYi5@c9_faJg;L4LZBb3
+R6
+33
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R11
+R12
+Erv32_top
+Z66 w1725154990
+R34
+R2
+R3
+!i122 5
+R0
+Z67 8rv32_top.vhd
+Z68 Frv32_top.vhd
+l0
+L5 1
+VXmVcDE=f40YXL5HK^8Nj<2
+!s100 7AZV>f2BfY73af1<54M<I2
+R6
+33
+R7
+!i10b 1
+R22
+Z69 !s90 -reportprogress|300|-2008|rv32_top.vhd|tb_rv32_top.vhd|
+!s107 tb_rv32_top.vhd|rv32_top.vhd|
+!i113 1
+R11
+R12
+Aarch_1
+R34
+R2
+R3
+DEx4 work 8 rv32_top 0 22 XmVcDE=f40YXL5HK^8Nj<2
+!i122 5
+l245
+L11 382
+VK49Ol==1zTmYM3b5Xh:Xm0
+!s100 @k3aO>dc:F7R0[X?3H2HH3
+R6
+33
+R7
+!i10b 1
+R22
+R69
+Z70 !s107 tb_rv32_top.vhd|rv32_top.vhd|
+!i113 1
+R11
+R12
+Eseletor_ula
+R1
+R2
+R3
+!i122 1
+R0
+Z71 8datapath/ula/seletor_ula.vhd
+Z72 Fdatapath/ula/seletor_ula.vhd
+l0
+L4 1
+V]X8dj6=ZNH8M0EMK_;XDh2
+!s100 NGc8MQR50afM;CTg>`[Fa3
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Aarq_1
+R2
+R3
+DEx4 work 11 seletor_ula 0 22 ]X8dj6=ZNH8M0EMK_;XDh2
+!i122 1
+l16
+L15 22
+Vd8iL;4z@]PB3Y;bAmEn^12
+!s100 B?UG6S>D3n=]`ZPCV2@c53
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Eshift_left
+R1
+R34
+R2
+R3
+!i122 2
+R0
+Z73 8datapath/shift_left.vhd
+Z74 Fdatapath/shift_left.vhd
+l0
+L5 1
+V9K_;[9e:E:Ua1c`UB2d>]1
+!s100 =L_YGULD7SKkYHHD11ANm1
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Abehavioral
+R34
+R2
+R3
+DEx4 work 10 shift_left 0 22 9K_;[9e:E:Ua1c`UB2d>]1
+!i122 2
+l11
+L10 7
+Viio?=C_^T=TeJ[bLW;ImN0
+!s100 <TigJ8PSS7:D=eBX7i2L91
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Eslt_32bits
+R1
+R34
+R2
+R3
+!i122 1
+R0
+Z75 8datapath/ula/slt.vhd
+Z76 Fdatapath/ula/slt.vhd
+l0
+L5 1
+V[453N15hB6CMF9;@?@];N0
+!s100 XLjbLmF;_YTNJQ_?VlHC53
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Aarq_1
+R34
+R2
+R3
+DEx4 work 10 slt_32bits 0 22 [453N15hB6CMF9;@?@];N0
+!i122 1
+l12
+L11 12
+V@UI7jK@Si?nXfTP22?STC2
+!s100 2eR4=]<meUN^N=Mc8cYU91
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Esomador
+R1
+R34
+R2
+R3
+!i122 2
+R0
+Z77 8datapath/somador.vhd
+Z78 Fdatapath/somador.vhd
+l0
+L5 1
+V1:GRmG]6lUma`e[`c^hJN1
+!s100 lm]Ek6`I4[`RNEjdiZGh?3
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Aarq_1
+R34
+R2
+R3
+DEx4 work 7 somador 0 22 1:GRmG]6lUma`e[`c^hJN1
+!i122 2
+l12
+Z79 L11 7
+VX4:E=YKo^nj9B5PWi4lSA0
+!s100 _SE9ha@SnNGzYNmWT9PO:3
+R6
+33
+R15
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Esubtrator
+R1
+R34
+R2
+R3
+!i122 1
+R0
+Z80 8datapath/ula/subtrator.vhd
+Z81 Fdatapath/ula/subtrator.vhd
+l0
+L5 1
+VO534aR[7=ZQ4lEN@IXOhI0
+!s100 8mmZX=Yl65cET6?Ebg_?00
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Aarq_1
+R34
+R2
+R3
+DEx4 work 9 subtrator 0 22 O534aR[7=ZQ4lEN@IXOhI0
+!i122 1
+l12
+R79
+V<:=jR:g1llNR0?[][R^;]2
+!s100 dEcE_QkRDg4>>Z06lEM;k3
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Etb_rv32_top
+R1
+R34
+R2
+R3
+!i122 5
+R0
+Z82 8tb_rv32_top.vhd
+Z83 Ftb_rv32_top.vhd
+l0
+L6 1
+VJ7XQJRT>PM<1V1j?Z?:PB3
+!s100 O32J9GLRGe25WUcz_fCe53
+R6
+33
+R7
+!i10b 1
+R22
+R69
+R70
+!i113 1
+R11
+R12
+Aarch_1
+R34
+R2
+R3
+DEx4 work 11 tb_rv32_top 0 22 J7XQJRT>PM<1V1j?Z?:PB3
+!i122 5
+l25
+L9 155
+V3ZAg`Y7Q>_2^<2DWARFhf2
+!s100 UUdJCAaS>1zL1?8i8e^V80
+R6
+33
+R7
+!i10b 1
+R22
+R69
+R70
+!i113 1
+R11
+R12
+Eula
+R1
+R2
+R3
+!i122 1
+R0
+Z84 8datapath/ula/ula.vhd
+Z85 Fdatapath/ula/ula.vhd
+l0
+L4 1
+V?F:L]25I^_zz8`_E`D5?Q3
+!s100 l`A^XKW`1N899;JAeabD=2
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Aarq_1
+R2
+R3
+DEx4 work 3 ula 0 22 ?F:L]25I^_zz8`_E`D5?Q3
+!i122 1
+l63
+L12 96
+VEaScO3=D5IjY6[^K98niR1
+!s100 8cEDkIGB96Z;mkeU>zbRi2
+R6
+33
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

@@ -1,0 +1,107 @@
+Restore Archived Project report for rv32
+Tue Aug 27 13:52:13 2024
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue Aug 27 13:52:13 2024 ;
+; Revision Name                   ; rv32                                  ;
+; Top-level Entity Name           ; rv32_top                              ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/LevyE/Downloads/Coding/Hardware Description/VHDL/rv32pipeline.qar' into the 'C:/Users/LevyE/Downloads/Coding/Hardware Description/VHDL/rv32pipeline_restored/' directory
+Info: Generated report 'rv32.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4818 megabytes
+    Info: Processing ended: Tue Aug 27 13:52:13 2024
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------------------------------+
+; Files Restored                                       ;
++------------------------------------------------------+
+; File Name                                            ;
++------------------------------------------------------+
+; qar_info.json                                        ;
+; hdl/controlador/alu_control.vhd                      ;
+; hdl/controlador/main_control.vhd                     ;
+; hdl/datapath/banco-de-registradores/decoder5to32.vhd ;
+; hdl/datapath/banco-de-registradores/mux32_32bit.vhd  ;
+; hdl/datapath/banco-de-registradores/reg_file.vhd     ;
+; hdl/datapath/data_memory.vhd                         ;
+; hdl/datapath/imm_gen.vhd                             ;
+; hdl/datapath/instruction_memory.vhd                  ;
+; hdl/datapath/mux.vhd                                 ;
+; hdl/datapath/reg.vhd                                 ;
+; hdl/datapath/shift_left.vhd                          ;
+; hdl/datapath/somador.vhd                             ;
+; hdl/datapath/ula/and.vhd                             ;
+; hdl/datapath/ula/nor.vhd                             ;
+; hdl/datapath/ula/or.vhd                              ;
+; hdl/datapath/ula/seletor_ula.vhd                     ;
+; hdl/datapath/ula/slt.vhd                             ;
+; hdl/datapath/ula/subtrator.vhd                       ;
+; hdl/datapath/ula/ula.vhd                             ;
+; hdl/registradores-barreira/bar_ex_mem.vhd            ;
+; hdl/registradores-barreira/bar_id_ex.vhd             ;
+; hdl/registradores-barreira/bar_if_id.vhd             ;
+; hdl/registradores-barreira/bar_mem_wb.vhd            ;
+; hdl/registradores-barreira/reg_ex_mem.vhd            ;
+; hdl/registradores-barreira/reg_id_ex.vhd             ;
+; hdl/registradores-barreira/reg_if_id.vhd             ;
+; hdl/registradores-barreira/reg_mem_wb.vhd            ;
+; hdl/rv32_top.vhd                                     ;
+; hdl/tb_rv32_top.vhd                                  ;
+; rv32.qpf                                             ;
+; rv32.qsf                                             ;
+; assignment_defaults.qdf                              ;
++------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

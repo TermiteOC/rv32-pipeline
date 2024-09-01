@@ -1,0 +1,44 @@
+suporte: beq, lw, sw, 
+	 formato i - addi
+         formato r - add, sub, slt, or, and
+
+vcom -2008 datapath/banco-de-registradores/*.vhd
+vcom -2008 datapath/ula/*.vhd
+vcom -2008 datapath/*.vhd
+vcom -2008 controlador/*.vhd
+vcom -2008 registradores-barreira/*.vhd
+vcom -2008 *.vhd
+vsim tb_rv32_top
+add wave *
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_PC_OUT_IF
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_PC_OUT_ID
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_PC_OUT_EX
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_INST_IF
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_INST_ID
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_READ1_ID
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_READ1_EX
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_READ2_ID
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_READ2_EX
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_READ2_MEM
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_IMM_ID
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_IMM_EX
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_SRC
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_OP
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_ALU_RES_EX
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_ALU_RES_MEM
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_ALU_RES_WB
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_WRITE_REG_EX
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_WRITE_REG_MEM
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_WRITE_REG_WB
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_DATA_MEM
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_DATA_WB
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_WRITE_DATA_WB
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_PC_IN
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_REGWRITE_ID
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_REGWRITE_EX
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_REGWRITE_MEM
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_REGWRITE_WB
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_MEMTOREG_ID
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_MEMTOREG_EX
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_MEMTOREG_MEM
+add wave -position end  sim:/tb_rv32_top/u_DUV/w_MEMTOREG_WB

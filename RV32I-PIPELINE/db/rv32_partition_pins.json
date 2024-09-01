@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "o_ALU_RESULT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[8]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[9]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[10]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[11]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[12]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[13]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[14]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[15]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[16]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[17]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[18]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[19]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[20]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[21]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[22]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[23]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[24]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[25]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[26]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[27]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[28]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[29]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[30]",
+					"strict" : false
+				},
+				{
+					"name" : "o_ALU_RESULT[31]",
+					"strict" : false
+				},
+				{
+					"name" : "i_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "i_RST",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
