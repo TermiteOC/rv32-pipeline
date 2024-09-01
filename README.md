@@ -1,2 +1,1 @@
-# rv32-pipeline
-a
+32 bit pipelined RISC-V processor collaborative project. The processor's components are described on VHDL, and it is implemented with a pipeline logic. This RISC-V has no solutions for any hazards. Processor has no support for the Jump instruction.
