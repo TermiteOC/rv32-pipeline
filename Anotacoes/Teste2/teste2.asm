@@ -10,19 +10,56 @@ main:
         addi  s3, zero, 5     # s3 = 5
         addi  s4, zero, 10    # s4 = 10
         
+        nop                   # sem operacao
+        nop                   # sem operacao
+        nop                   # sem operacao
+        
     	or    t0, s3, s4      # t0 = s3 or s4
+    	
+    	nop                   # sem operacao
+    	nop                   # sem operacao
+    	nop                   # sem operacao
+    	
     	and   t0, t0, s1      # t0 = t0 and s1
     	
 Loop:   add   t1, s2, s2      # t1 = i*2
+
+	nop                   # sem operacao
+	nop                   # sem operacao
+	nop                   # sem operacao
+	
     	add   t1, t1, t1      # t1 = i*4
+    	
+    	nop                   # sem operacao
+    	nop                   # sem operacao
+    	nop                   # sem operacao
+    	
     	add   t1, s0, t1      # t1 = addr_base + i*4 = A[i]
+    	
+    	nop                   # sem operacao
+    	nop                   # sem operacao
+    	nop                   # sem operacao
+    	
     	sw    t0, 0(t1)       # A[i] = t0 = 1
     	lw    t2, 0(t1)       # t2 = A[i] = 1
+    	
+    	nop                   # sem operacao
+    	nop                   # sem operacao
+    	nop                   # sem operacao
+    	
     	sub   s4, s4, t2      # s4 = s4 - t2
     	
     	slt   t3, s2, s1      # se i < 1, t3 = 1, se não, t3 = 0
     	addi  s2, s2, 1       # i = i + 1
+    	
+    	nop                   # sem operacao
+    	nop                   # sem operacao
+    	
     	beq   t3, s1, Loop    # se t3 = 1, vai para Loop
+    	
+    	nop                   # sem operacao
+    	nop                   # sem operacao
+    	nop                   # sem operacao
     	
     	add   s4, s4, s3      # s4 = s4 + s3
 
