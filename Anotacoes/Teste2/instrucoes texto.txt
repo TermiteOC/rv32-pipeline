@@ -1,21 +1,44 @@
 Address     Code        Basic                        Line Source
 
-4194304  0x0fc10417  auipc x8,64528               7            la    s0, arrayA      # carrega o endereco de arrayA em s0, 
-4194308  0x00040413  addi x8,x8,0                      
-4194312  0x00100493  addi x9,x0,1                 9            addi  s1, zero, 1     # s1 = 1
-4194316  0x00000913  addi x18,x0,0                10           addi  s2, zero, 0     # i = 0
-4194320  0x00500993  addi x19,x0,5                11           addi  s3, zero, 5     # s3 = 5
-4194324  0x00a00a13  addi x20,x0,10               12           addi  s4, zero, 10    # s4 = 10
-4194328  0x0149e2b3  or x5,x19,x20                14       	or    t0, s3, s4      # t0 = s3 or s4 = 5 or 10
-4194332  0x0092f2b3  and x5,x5,x9                 15       	and   t0, t0, s1      # t0 = t0 and s1 = 15 and 1
-4194336  0x01290333  add x6,x18,x18               17   Loop:   add   t1, s2, s2      # t1 =  i*2
-4194340  0x00630333  add x6,x6,x6                 18       	add   t1, t1, t1      # t1 =  t1*2 =  i*4
-4194344  0x00640333  add x6,x8,x6                 19       	add   t1, s0, t1      # t1 =  addr_base + i*4 = A[i]
-4194348  0x00532023  sw x5,0(x6)                  20       	sw    t0, 0(t1)       # A[i] = t0 = 1
-4194352  0x00032383  lw x7,0(x6)                  21       	lw    t2, 0(t1)       # t2 = A[i] = 1
-4194356  0x407a0a33  sub x20,x20,x7               22       	sub   s4, s4, t2      # s4 = s4 - 1
-4194360  0x00992e33  slt x28,x18,x9               24       	slt   t3, s2, s1      # se i < 1, t3 = 1, se não, t3 = 0
-4194364  0x00190913  addi x18,x18,1               25       	addi  s2, s2, 1       # i = i + 1
-4194368  0xfe9e00e3  beq x28,x9,-32               26       	beq   t3, s1, Loop    # se t3 = 1, vai para Loop
-4194372  0x013a0a33  add x20,x20,x19              28       	add   s4, s4, s3      # s4 = s4 + 5
-4194376  0x00000013  addi x0,x0,0                 30     	nop                   # sem operacao
+0x00400000  0x0fc10417  auipc x8,64528 *nop          6            la    s0, arrayA      # carrega o endereco de arrayA em s0, 
+0x00400004  0x00040413  addi x8,x8,0                      
+0x00400008  0x00100493  addi x9,x0,1                 8            addi  s1, zero, 1     # s1 = 1
+0x0040000c  0x00000913  addi x18,x0,0                9            addi  s2, zero, 0     # i = 0
+0x00400010  0x00500993  addi x19,x0,5                10           addi  s3, zero, 5     # s3 = 5
+0x00400014  0x00a00a13  addi x20,x0,10               11           addi  s4, zero, 10    # s4 = 10
+0x00400018  0x00000013  addi x0,x0,0                 13           nop                   # sem operacao
+0x0040001c  0x00000013  addi x0,x0,0                 14           nop                   # sem operacao
+0x00400020  0x00000013  addi x0,x0,0                 15           nop                   # sem operacao
+0x00400024  0x0149e2b3  or x5,x19,x20                17       	or    t0, s3, s4      # t0 = s3 or s4
+0x00400028  0x00000013  addi x0,x0,0                 19       	nop                   # sem operacao
+0x0040002c  0x00000013  addi x0,x0,0                 20       	nop                   # sem operacao
+0x00400030  0x00000013  addi x0,x0,0                 21       	nop                   # sem operacao
+0x00400034  0x0092f2b3  and x5,x5,x9                 23       	and   t0, t0, s1      # t0 = t0 and s1
+0x00400038  0x01290333  add x6,x18,x18               25   Loop:   add   t1, s2, s2      # t1 = i*2
+0x0040003c  0x00000013  addi x0,x0,0                 27   	nop                   # sem operacao
+0x00400040  0x00000013  addi x0,x0,0                 28   	nop                   # sem operacao
+0x00400044  0x00000013  addi x0,x0,0                 29   	nop                   # sem operacao
+0x00400048  0x00630333  add x6,x6,x6                 31       	add   t1, t1, t1      # t1 = i*4
+0x0040004c  0x00000013  addi x0,x0,0                 33       	nop                   # sem operacao
+0x00400050  0x00000013  addi x0,x0,0                 34       	nop                   # sem operacao
+0x00400054  0x00000013  addi x0,x0,0                 35       	nop                   # sem operacao
+0x00400058  0x00640333  add x6,x8,x6                 37       	add   t1, s0, t1      # t1 = addr_base + i*4 = A[i]
+0x0040005c  0x00000013  addi x0,x0,0                 39       	nop                   # sem operacao
+0x00400060  0x00000013  addi x0,x0,0                 40       	nop                   # sem operacao
+0x00400064  0x00000013  addi x0,x0,0                 41       	nop                   # sem operacao
+0x00400068  0x00532023  sw x5,0(x6)                  43       	sw    t0, 0(t1)       # A[i] = t0 = 1
+0x0040006c  0x00032383  lw x7,0(x6)                  44       	lw    t2, 0(t1)       # t2 = A[i] = 1
+0x00400070  0x00000013  addi x0,x0,0                 46       	nop                   # sem operacao
+0x00400074  0x00000013  addi x0,x0,0                 47       	nop                   # sem operacao
+0x00400078  0x00000013  addi x0,x0,0                 48       	nop                   # sem operacao
+0x0040007c  0x407a0a33  sub x20,x20,x7               50       	sub   s4, s4, t2      # s4 = s4 - t2
+0x00400080  0x00992e33  slt x28,x18,x9               52       	slt   t3, s2, s1      # se i < 1, t3 = 1, se não, t3 = 0
+0x00400084  0x00190913  addi x18,x18,1               53       	addi  s2, s2, 1       # i = i + 1
+0x00400088  0x00000013  addi x0,x0,0                 55       	nop                   # sem operacao
+0x0040008c  0x00000013  addi x0,x0,0                 56       	nop                   # sem operacao
+0x00400090  0xfa9e04e3  beq x28,x9,-88               58       	beq   t3, s1, Loop    # se t3 = 1, vai para Loop
+0x00400094  0x00000013  addi x0,x0,0                 60       	nop                   # sem operacao
+0x00400098  0x00000013  addi x0,x0,0                 61       	nop                   # sem operacao
+0x0040009c  0x00000013  addi x0,x0,0                 62       	nop                   # sem operacao
+0x004000a0  0x013a0a33  add x20,x20,x19              64       	add   s4, s4, s3      # s4 = s4 + s3
+0x004000a4  0x00000013  addi x0,x0,0                 66     	nop                   # sem operacao
