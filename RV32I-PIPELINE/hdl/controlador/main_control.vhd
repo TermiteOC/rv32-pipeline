@@ -32,8 +32,7 @@ begin
                    (i_OP(0) and i_OP(1) and (not i_OP(2)) and (not i_OP(3)) and  i_OP(4) and i_OP(5) and (not i_OP(6))) or            -- formato r
                    (i_OP(0) and i_OP(1) and (not i_OP(2)) and (not i_OP(3)) and i_OP(4) and (not i_OP(5)) and (not i_OP(6)));         -- formato i
  
-    o_MEMREAD   <= (i_OP(0) and i_OP(1) and (not i_OP(2)) and (not i_OP(3)) and (not i_OP(4)) and (not i_OP(5)) and (not i_OP(6))) or -- lw  
-                   (i_OP(0) and i_OP(1) and (not i_OP(2)) and (not i_OP(3)) and (not i_OP(4)) and i_OP(5) and (not i_OP(6)));         -- sw
+    o_MEMREAD   <= (i_OP(0) and i_OP(1) and (not i_OP(2)) and (not i_OP(3)) and (not i_OP(4)) and (not i_OP(5)) and (not i_OP(6)));   -- lw
   
     o_MEMWRITE  <=  i_OP(0) and i_OP(1) and (not i_OP(2)) and (not i_OP(3)) and (not i_OP(4)) and i_OP(5) and (not i_OP(6));          -- sw
  
